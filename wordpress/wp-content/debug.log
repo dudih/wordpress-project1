@@ -1,0 +1,316 @@
+[02-Jan-2013 13:24:01 UTC] PHP Warning:  fopen(http://localhost/Tutorials/wordpress-project1/wordpress/wp-cron.php?doing_wp_cron=1357133041.6385579109191894531250): failed to open stream: HTTP request failed!  in C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\class-http.php on line 921
+[02-Jan-2013 13:24:01 UTC] PHP Stack trace:
+[02-Jan-2013 13:24:01 UTC] PHP   1. {main}() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-login.php:0
+[02-Jan-2013 13:24:01 UTC] PHP   2. require() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-login.php:12
+[02-Jan-2013 13:24:01 UTC] PHP   3. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-load.php:29
+[02-Jan-2013 13:24:01 UTC] PHP   4. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-config.php:96
+[02-Jan-2013 13:24:01 UTC] PHP   5. do_action() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-settings.php:306
+[02-Jan-2013 13:24:01 UTC] PHP   6. call_user_func_array() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php:406
+[02-Jan-2013 13:24:01 UTC] PHP   7. wp_cron() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php:406
+[02-Jan-2013 13:24:01 UTC] PHP   8. spawn_cron() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\cron.php:283
+[02-Jan-2013 13:24:01 UTC] PHP   9. wp_remote_post() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\cron.php:253
+[02-Jan-2013 13:24:01 UTC] PHP  10. WP_Http->post() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\http.php:92
+[02-Jan-2013 13:24:01 UTC] PHP  11. WP_Http->request() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\class-http.php:275
+[02-Jan-2013 13:24:01 UTC] PHP  12. WP_Http->_dispatch_request() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\class-http.php:187
+[02-Jan-2013 13:24:01 UTC] PHP  13. WP_Http_Streams->request() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\class-http.php:250
+[02-Jan-2013 13:24:01 UTC] PHP  14. fopen() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\class-http.php:921
+[02-Jan-2013 13:26:31 UTC] PHP Warning:  fopen(http://localhost/Tutorials/wordpress-project1/wordpress/wp-cron.php?doing_wp_cron=1357133191.0329260826110839843750): failed to open stream: HTTP request failed!  in C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\class-http.php on line 921
+[02-Jan-2013 13:26:31 UTC] PHP Stack trace:
+[02-Jan-2013 13:26:31 UTC] PHP   1. {main}() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-admin\themes.php:0
+[02-Jan-2013 13:26:31 UTC] PHP   2. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-admin\themes.php:10
+[02-Jan-2013 13:26:31 UTC] PHP   3. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-admin\admin.php:30
+[02-Jan-2013 13:26:31 UTC] PHP   4. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-load.php:29
+[02-Jan-2013 13:26:31 UTC] PHP   5. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-config.php:96
+[02-Jan-2013 13:26:31 UTC] PHP   6. do_action() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-settings.php:306
+[02-Jan-2013 13:26:31 UTC] PHP   7. call_user_func_array() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php:406
+[02-Jan-2013 13:26:31 UTC] PHP   8. wp_cron() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php:406
+[02-Jan-2013 13:26:31 UTC] PHP   9. spawn_cron() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\cron.php:283
+[02-Jan-2013 13:26:31 UTC] PHP  10. wp_remote_post() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\cron.php:253
+[02-Jan-2013 13:26:31 UTC] PHP  11. WP_Http->post() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\http.php:92
+[02-Jan-2013 13:26:31 UTC] PHP  12. WP_Http->request() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\class-http.php:275
+[02-Jan-2013 13:26:31 UTC] PHP  13. WP_Http->_dispatch_request() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\class-http.php:187
+[02-Jan-2013 13:26:31 UTC] PHP  14. WP_Http_Streams->request() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\class-http.php:250
+[02-Jan-2013 13:26:31 UTC] PHP  15. fopen() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\class-http.php:921
+[02-Jan-2013 13:26:36 UTC] PHP Notice:  Constant ENV already defined in C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-content\themes\theme-master\functions\params.php on line 6
+[02-Jan-2013 13:26:36 UTC] PHP Stack trace:
+[02-Jan-2013 13:26:36 UTC] PHP   1. {main}() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-admin\themes.php:0
+[02-Jan-2013 13:26:36 UTC] PHP   2. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-admin\themes.php:10
+[02-Jan-2013 13:26:36 UTC] PHP   3. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-admin\admin.php:30
+[02-Jan-2013 13:26:36 UTC] PHP   4. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-load.php:29
+[02-Jan-2013 13:26:36 UTC] PHP   5. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-config.php:96
+[02-Jan-2013 13:26:36 UTC] PHP   6. include() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-settings.php:291
+[02-Jan-2013 13:26:36 UTC] PHP   7. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-content\themes\theme-master\functions.php:4
+[02-Jan-2013 13:26:36 UTC] PHP   8. define() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-content\themes\theme-master\functions\params.php:6
+[02-Jan-2013 13:26:37 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'editor_highlight_menu' not found or invalid function name in C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php on line 406
+[02-Jan-2013 13:26:37 UTC] PHP Stack trace:
+[02-Jan-2013 13:26:37 UTC] PHP   1. {main}() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-admin\themes.php:0
+[02-Jan-2013 13:26:37 UTC] PHP   2. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-admin\themes.php:10
+[02-Jan-2013 13:26:37 UTC] PHP   3. require() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-admin\admin.php:106
+[02-Jan-2013 13:26:37 UTC] PHP   4. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-admin\menu.php:244
+[02-Jan-2013 13:26:37 UTC] PHP   5. do_action() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-admin\includes\menu.php:97
+[02-Jan-2013 13:26:37 UTC] PHP   6. call_user_func_array() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php:406
+[02-Jan-2013 13:26:41 UTC] PHP Notice:  Constant ENV already defined in C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-content\themes\theme-master\functions\params.php on line 6
+[02-Jan-2013 13:26:41 UTC] PHP Stack trace:
+[02-Jan-2013 13:26:41 UTC] PHP   1. {main}() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\index.php:0
+[02-Jan-2013 13:26:41 UTC] PHP   2. require() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\index.php:17
+[02-Jan-2013 13:26:41 UTC] PHP   3. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-blog-header.php:12
+[02-Jan-2013 13:26:41 UTC] PHP   4. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-load.php:29
+[02-Jan-2013 13:26:41 UTC] PHP   5. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-config.php:96
+[02-Jan-2013 13:26:41 UTC] PHP   6. include() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-settings.php:291
+[02-Jan-2013 13:26:41 UTC] PHP   7. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-content\themes\theme-master\functions.php:4
+[02-Jan-2013 13:26:41 UTC] PHP   8. define() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-content\themes\theme-master\functions\params.php:6
+[02-Jan-2013 13:27:02 UTC] PHP Notice:  Constant ENV already defined in C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-content\themes\theme-master\functions\params.php on line 6
+[02-Jan-2013 13:27:02 UTC] PHP Stack trace:
+[02-Jan-2013 13:27:02 UTC] PHP   1. {main}() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-admin\themes.php:0
+[02-Jan-2013 13:27:02 UTC] PHP   2. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-admin\themes.php:10
+[02-Jan-2013 13:27:02 UTC] PHP   3. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-admin\admin.php:30
+[02-Jan-2013 13:27:02 UTC] PHP   4. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-load.php:29
+[02-Jan-2013 13:27:02 UTC] PHP   5. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-config.php:96
+[02-Jan-2013 13:27:02 UTC] PHP   6. include() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-settings.php:291
+[02-Jan-2013 13:27:02 UTC] PHP   7. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-content\themes\theme-master\functions.php:4
+[02-Jan-2013 13:27:02 UTC] PHP   8. define() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-content\themes\theme-master\functions\params.php:6
+[02-Jan-2013 13:27:02 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'editor_highlight_menu' not found or invalid function name in C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php on line 406
+[02-Jan-2013 13:27:02 UTC] PHP Stack trace:
+[02-Jan-2013 13:27:02 UTC] PHP   1. {main}() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-admin\themes.php:0
+[02-Jan-2013 13:27:02 UTC] PHP   2. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-admin\themes.php:10
+[02-Jan-2013 13:27:02 UTC] PHP   3. require() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-admin\admin.php:106
+[02-Jan-2013 13:27:02 UTC] PHP   4. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-admin\menu.php:244
+[02-Jan-2013 13:27:02 UTC] PHP   5. do_action() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-admin\includes\menu.php:97
+[02-Jan-2013 13:27:02 UTC] PHP   6. call_user_func_array() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php:406
+[02-Jan-2013 13:33:34 UTC] PHP Notice:  Constant ENV already defined in C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-content\themes\theme-master\functions\params.php on line 6
+[02-Jan-2013 13:33:34 UTC] PHP Stack trace:
+[02-Jan-2013 13:33:34 UTC] PHP   1. {main}() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-admin\themes.php:0
+[02-Jan-2013 13:33:34 UTC] PHP   2. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-admin\themes.php:10
+[02-Jan-2013 13:33:34 UTC] PHP   3. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-admin\admin.php:30
+[02-Jan-2013 13:33:34 UTC] PHP   4. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-load.php:29
+[02-Jan-2013 13:33:34 UTC] PHP   5. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-config.php:96
+[02-Jan-2013 13:33:34 UTC] PHP   6. include() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-settings.php:291
+[02-Jan-2013 13:33:34 UTC] PHP   7. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-content\themes\theme-master\functions.php:4
+[02-Jan-2013 13:33:34 UTC] PHP   8. define() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-content\themes\theme-master\functions\params.php:6
+[02-Jan-2013 13:33:34 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'editor_highlight_menu' not found or invalid function name in C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php on line 406
+[02-Jan-2013 13:33:34 UTC] PHP Stack trace:
+[02-Jan-2013 13:33:34 UTC] PHP   1. {main}() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-admin\themes.php:0
+[02-Jan-2013 13:33:34 UTC] PHP   2. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-admin\themes.php:10
+[02-Jan-2013 13:33:34 UTC] PHP   3. require() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-admin\admin.php:106
+[02-Jan-2013 13:33:34 UTC] PHP   4. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-admin\menu.php:244
+[02-Jan-2013 13:33:34 UTC] PHP   5. do_action() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-admin\includes\menu.php:97
+[02-Jan-2013 13:33:34 UTC] PHP   6. call_user_func_array() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php:406
+[02-Jan-2013 13:48:56 UTC] PHP Notice:  Constant ENV already defined in C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-content\themes\theme-master\functions\params.php on line 6
+[02-Jan-2013 13:48:56 UTC] PHP Stack trace:
+[02-Jan-2013 13:48:56 UTC] PHP   1. {main}() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-admin\customize.php:0
+[02-Jan-2013 13:48:56 UTC] PHP   2. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-admin\customize.php:12
+[02-Jan-2013 13:48:56 UTC] PHP   3. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-admin\admin.php:30
+[02-Jan-2013 13:48:56 UTC] PHP   4. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-load.php:29
+[02-Jan-2013 13:48:56 UTC] PHP   5. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-config.php:96
+[02-Jan-2013 13:48:56 UTC] PHP   6. include() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-settings.php:291
+[02-Jan-2013 13:48:56 UTC] PHP   7. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-content\themes\theme-master\functions.php:4
+[02-Jan-2013 13:48:56 UTC] PHP   8. define() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-content\themes\theme-master\functions\params.php:6
+[02-Jan-2013 13:48:56 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'editor_highlight_menu' not found or invalid function name in C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php on line 406
+[02-Jan-2013 13:48:56 UTC] PHP Stack trace:
+[02-Jan-2013 13:48:56 UTC] PHP   1. {main}() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-admin\customize.php:0
+[02-Jan-2013 13:48:56 UTC] PHP   2. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-admin\customize.php:12
+[02-Jan-2013 13:48:56 UTC] PHP   3. require() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-admin\admin.php:106
+[02-Jan-2013 13:48:56 UTC] PHP   4. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-admin\menu.php:244
+[02-Jan-2013 13:48:56 UTC] PHP   5. do_action() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-admin\includes\menu.php:97
+[02-Jan-2013 13:48:56 UTC] PHP   6. call_user_func_array() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php:406
+[02-Jan-2013 13:48:57 UTC] PHP Notice:  Constant ENV already defined in C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-content\themes\theme-master\functions\params.php on line 6
+[02-Jan-2013 13:48:57 UTC] PHP Stack trace:
+[02-Jan-2013 13:48:57 UTC] PHP   1. {main}() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\index.php:0
+[02-Jan-2013 13:48:57 UTC] PHP   2. require() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\index.php:17
+[02-Jan-2013 13:48:57 UTC] PHP   3. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-blog-header.php:12
+[02-Jan-2013 13:48:57 UTC] PHP   4. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-load.php:29
+[02-Jan-2013 13:48:57 UTC] PHP   5. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-config.php:96
+[02-Jan-2013 13:48:57 UTC] PHP   6. include() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-settings.php:291
+[02-Jan-2013 13:48:57 UTC] PHP   7. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-content\themes\theme-master\functions.php:4
+[02-Jan-2013 13:48:57 UTC] PHP   8. define() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-content\themes\theme-master\functions\params.php:6
+[02-Jan-2013 13:49:06 UTC] PHP Notice:  Constant ENV already defined in C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-content\themes\theme-master\functions\params.php on line 6
+[02-Jan-2013 13:49:06 UTC] PHP Stack trace:
+[02-Jan-2013 13:49:06 UTC] PHP   1. {main}() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\index.php:0
+[02-Jan-2013 13:49:06 UTC] PHP   2. require() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\index.php:17
+[02-Jan-2013 13:49:06 UTC] PHP   3. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-blog-header.php:12
+[02-Jan-2013 13:49:06 UTC] PHP   4. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-load.php:29
+[02-Jan-2013 13:49:06 UTC] PHP   5. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-config.php:96
+[02-Jan-2013 13:49:06 UTC] PHP   6. include() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-settings.php:291
+[02-Jan-2013 13:49:06 UTC] PHP   7. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-content\themes\theme-master\functions.php:4
+[02-Jan-2013 13:49:06 UTC] PHP   8. define() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-content\themes\theme-master\functions\params.php:6
+[02-Jan-2013 13:49:11 UTC] PHP Notice:  Constant ENV already defined in C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-content\themes\theme-master\functions\params.php on line 6
+[02-Jan-2013 13:49:11 UTC] PHP Stack trace:
+[02-Jan-2013 13:49:11 UTC] PHP   1. {main}() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\index.php:0
+[02-Jan-2013 13:49:11 UTC] PHP   2. require() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\index.php:17
+[02-Jan-2013 13:49:11 UTC] PHP   3. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-blog-header.php:12
+[02-Jan-2013 13:49:11 UTC] PHP   4. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-load.php:29
+[02-Jan-2013 13:49:11 UTC] PHP   5. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-config.php:96
+[02-Jan-2013 13:49:11 UTC] PHP   6. include() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-settings.php:291
+[02-Jan-2013 13:49:11 UTC] PHP   7. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-content\themes\theme-master\functions.php:4
+[02-Jan-2013 13:49:11 UTC] PHP   8. define() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-content\themes\theme-master\functions\params.php:6
+[03-Jan-2013 09:05:48 UTC] PHP Warning:  fopen(http://localhost/Tutorials/wordpress-project1/wordpress/wp-cron.php?doing_wp_cron=1357203948.4806990623474121093750): failed to open stream: HTTP request failed!  in C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\class-http.php on line 921
+[03-Jan-2013 09:05:48 UTC] PHP Stack trace:
+[03-Jan-2013 09:05:48 UTC] PHP   1. {main}() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\index.php:0
+[03-Jan-2013 09:05:48 UTC] PHP   2. require() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\index.php:17
+[03-Jan-2013 09:05:48 UTC] PHP   3. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-blog-header.php:12
+[03-Jan-2013 09:05:48 UTC] PHP   4. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-load.php:29
+[03-Jan-2013 09:05:48 UTC] PHP   5. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-config.php:96
+[03-Jan-2013 09:05:48 UTC] PHP   6. do_action() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-settings.php:306
+[03-Jan-2013 09:05:48 UTC] PHP   7. call_user_func_array() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php:406
+[03-Jan-2013 09:05:48 UTC] PHP   8. wp_cron() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php:406
+[03-Jan-2013 09:05:48 UTC] PHP   9. spawn_cron() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\cron.php:283
+[03-Jan-2013 09:05:48 UTC] PHP  10. wp_remote_post() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\cron.php:253
+[03-Jan-2013 09:05:48 UTC] PHP  11. WP_Http->post() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\http.php:92
+[03-Jan-2013 09:05:48 UTC] PHP  12. WP_Http->request() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\class-http.php:275
+[03-Jan-2013 09:05:48 UTC] PHP  13. WP_Http->_dispatch_request() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\class-http.php:187
+[03-Jan-2013 09:05:48 UTC] PHP  14. WP_Http_Streams->request() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\class-http.php:250
+[03-Jan-2013 09:05:48 UTC] PHP  15. fopen() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\class-http.php:921
+[03-Jan-2013 13:03:49 UTC] PHP Notice:  Undefined variable: is_minfied in C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-content\themes\theme-master\functions\scripts-n-styles.php on line 8
+[03-Jan-2013 13:03:49 UTC] PHP Stack trace:
+[03-Jan-2013 13:03:49 UTC] PHP   1. {main}() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\index.php:0
+[03-Jan-2013 13:03:49 UTC] PHP   2. require() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\index.php:17
+[03-Jan-2013 13:03:49 UTC] PHP   3. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-blog-header.php:12
+[03-Jan-2013 13:03:49 UTC] PHP   4. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-load.php:29
+[03-Jan-2013 13:03:49 UTC] PHP   5. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-config.php:96
+[03-Jan-2013 13:03:49 UTC] PHP   6. do_action() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-settings.php:306
+[03-Jan-2013 13:03:49 UTC] PHP   7. call_user_func_array() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php:406
+[03-Jan-2013 13:03:49 UTC] PHP   8. register_scripts_n_styles() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php:406
+[03-Jan-2013 13:03:49 UTC] PHP Notice:  Undefined variable: is_minfied in C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-content\themes\theme-master\functions\scripts-n-styles.php on line 9
+[03-Jan-2013 13:03:49 UTC] PHP Stack trace:
+[03-Jan-2013 13:03:49 UTC] PHP   1. {main}() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\index.php:0
+[03-Jan-2013 13:03:49 UTC] PHP   2. require() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\index.php:17
+[03-Jan-2013 13:03:49 UTC] PHP   3. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-blog-header.php:12
+[03-Jan-2013 13:03:49 UTC] PHP   4. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-load.php:29
+[03-Jan-2013 13:03:49 UTC] PHP   5. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-config.php:96
+[03-Jan-2013 13:03:49 UTC] PHP   6. do_action() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-settings.php:306
+[03-Jan-2013 13:03:49 UTC] PHP   7. call_user_func_array() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php:406
+[03-Jan-2013 13:03:49 UTC] PHP   8. register_scripts_n_styles() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php:406
+[03-Jan-2013 13:03:54 UTC] PHP Notice:  Undefined variable: is_minfied in C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-content\themes\theme-master\functions\scripts-n-styles.php on line 8
+[03-Jan-2013 13:03:54 UTC] PHP Stack trace:
+[03-Jan-2013 13:03:54 UTC] PHP   1. {main}() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\index.php:0
+[03-Jan-2013 13:03:54 UTC] PHP   2. require() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\index.php:17
+[03-Jan-2013 13:03:54 UTC] PHP   3. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-blog-header.php:12
+[03-Jan-2013 13:03:54 UTC] PHP   4. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-load.php:29
+[03-Jan-2013 13:03:54 UTC] PHP   5. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-config.php:96
+[03-Jan-2013 13:03:54 UTC] PHP   6. do_action() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-settings.php:306
+[03-Jan-2013 13:03:54 UTC] PHP   7. call_user_func_array() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php:406
+[03-Jan-2013 13:03:54 UTC] PHP   8. register_scripts_n_styles() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php:406
+[03-Jan-2013 13:03:54 UTC] PHP Notice:  Undefined variable: is_minfied in C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-content\themes\theme-master\functions\scripts-n-styles.php on line 9
+[03-Jan-2013 13:03:54 UTC] PHP Stack trace:
+[03-Jan-2013 13:03:54 UTC] PHP   1. {main}() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\index.php:0
+[03-Jan-2013 13:03:54 UTC] PHP   2. require() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\index.php:17
+[03-Jan-2013 13:03:54 UTC] PHP   3. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-blog-header.php:12
+[03-Jan-2013 13:03:54 UTC] PHP   4. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-load.php:29
+[03-Jan-2013 13:03:54 UTC] PHP   5. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-config.php:96
+[03-Jan-2013 13:03:54 UTC] PHP   6. do_action() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-settings.php:306
+[03-Jan-2013 13:03:54 UTC] PHP   7. call_user_func_array() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php:406
+[03-Jan-2013 13:03:54 UTC] PHP   8. register_scripts_n_styles() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php:406
+[03-Jan-2013 13:03:56 UTC] PHP Notice:  Undefined variable: is_minfied in C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-content\themes\theme-master\functions\scripts-n-styles.php on line 8
+[03-Jan-2013 13:03:56 UTC] PHP Stack trace:
+[03-Jan-2013 13:03:56 UTC] PHP   1. {main}() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\index.php:0
+[03-Jan-2013 13:03:56 UTC] PHP   2. require() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\index.php:17
+[03-Jan-2013 13:03:56 UTC] PHP   3. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-blog-header.php:12
+[03-Jan-2013 13:03:56 UTC] PHP   4. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-load.php:29
+[03-Jan-2013 13:03:56 UTC] PHP   5. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-config.php:96
+[03-Jan-2013 13:03:56 UTC] PHP   6. do_action() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-settings.php:306
+[03-Jan-2013 13:03:56 UTC] PHP   7. call_user_func_array() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php:406
+[03-Jan-2013 13:03:56 UTC] PHP   8. register_scripts_n_styles() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php:406
+[03-Jan-2013 13:03:56 UTC] PHP Notice:  Undefined variable: is_minfied in C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-content\themes\theme-master\functions\scripts-n-styles.php on line 9
+[03-Jan-2013 13:03:56 UTC] PHP Stack trace:
+[03-Jan-2013 13:03:56 UTC] PHP   1. {main}() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\index.php:0
+[03-Jan-2013 13:03:56 UTC] PHP   2. require() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\index.php:17
+[03-Jan-2013 13:03:56 UTC] PHP   3. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-blog-header.php:12
+[03-Jan-2013 13:03:56 UTC] PHP   4. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-load.php:29
+[03-Jan-2013 13:03:56 UTC] PHP   5. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-config.php:96
+[03-Jan-2013 13:03:56 UTC] PHP   6. do_action() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-settings.php:306
+[03-Jan-2013 13:03:56 UTC] PHP   7. call_user_func_array() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php:406
+[03-Jan-2013 13:03:56 UTC] PHP   8. register_scripts_n_styles() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php:406
+[03-Jan-2013 13:03:56 UTC] PHP Notice:  Undefined variable: is_minfied in C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-content\themes\theme-master\functions\scripts-n-styles.php on line 8
+[03-Jan-2013 13:03:56 UTC] PHP Stack trace:
+[03-Jan-2013 13:03:56 UTC] PHP   1. {main}() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\index.php:0
+[03-Jan-2013 13:03:56 UTC] PHP   2. require() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\index.php:17
+[03-Jan-2013 13:03:56 UTC] PHP   3. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-blog-header.php:12
+[03-Jan-2013 13:03:56 UTC] PHP   4. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-load.php:29
+[03-Jan-2013 13:03:56 UTC] PHP   5. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-config.php:96
+[03-Jan-2013 13:03:56 UTC] PHP   6. do_action() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-settings.php:306
+[03-Jan-2013 13:03:56 UTC] PHP   7. call_user_func_array() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php:406
+[03-Jan-2013 13:03:56 UTC] PHP   8. register_scripts_n_styles() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php:406
+[03-Jan-2013 13:03:56 UTC] PHP Notice:  Undefined variable: is_minfied in C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-content\themes\theme-master\functions\scripts-n-styles.php on line 9
+[03-Jan-2013 13:03:56 UTC] PHP Stack trace:
+[03-Jan-2013 13:03:56 UTC] PHP   1. {main}() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\index.php:0
+[03-Jan-2013 13:03:56 UTC] PHP   2. require() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\index.php:17
+[03-Jan-2013 13:03:56 UTC] PHP   3. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-blog-header.php:12
+[03-Jan-2013 13:03:56 UTC] PHP   4. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-load.php:29
+[03-Jan-2013 13:03:56 UTC] PHP   5. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-config.php:96
+[03-Jan-2013 13:03:56 UTC] PHP   6. do_action() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-settings.php:306
+[03-Jan-2013 13:03:56 UTC] PHP   7. call_user_func_array() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php:406
+[03-Jan-2013 13:03:56 UTC] PHP   8. register_scripts_n_styles() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php:406
+[03-Jan-2013 13:05:00 UTC] PHP Notice:  Undefined variable: is_minfied in C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-content\themes\theme-master\functions\scripts-n-styles.php on line 8
+[03-Jan-2013 13:05:00 UTC] PHP Stack trace:
+[03-Jan-2013 13:05:00 UTC] PHP   1. {main}() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\index.php:0
+[03-Jan-2013 13:05:00 UTC] PHP   2. require() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\index.php:17
+[03-Jan-2013 13:05:00 UTC] PHP   3. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-blog-header.php:12
+[03-Jan-2013 13:05:00 UTC] PHP   4. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-load.php:29
+[03-Jan-2013 13:05:00 UTC] PHP   5. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-config.php:96
+[03-Jan-2013 13:05:00 UTC] PHP   6. do_action() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-settings.php:306
+[03-Jan-2013 13:05:00 UTC] PHP   7. call_user_func_array() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php:406
+[03-Jan-2013 13:05:00 UTC] PHP   8. register_scripts_n_styles() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php:406
+[03-Jan-2013 13:05:00 UTC] PHP Notice:  Undefined variable: is_minfied in C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-content\themes\theme-master\functions\scripts-n-styles.php on line 9
+[03-Jan-2013 13:05:00 UTC] PHP Stack trace:
+[03-Jan-2013 13:05:00 UTC] PHP   1. {main}() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\index.php:0
+[03-Jan-2013 13:05:00 UTC] PHP   2. require() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\index.php:17
+[03-Jan-2013 13:05:00 UTC] PHP   3. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-blog-header.php:12
+[03-Jan-2013 13:05:00 UTC] PHP   4. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-load.php:29
+[03-Jan-2013 13:05:00 UTC] PHP   5. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-config.php:96
+[03-Jan-2013 13:05:00 UTC] PHP   6. do_action() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-settings.php:306
+[03-Jan-2013 13:05:00 UTC] PHP   7. call_user_func_array() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php:406
+[03-Jan-2013 13:05:00 UTC] PHP   8. register_scripts_n_styles() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php:406
+[03-Jan-2013 13:05:03 UTC] PHP Notice:  Undefined variable: is_minfied in C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-content\themes\theme-master\functions\scripts-n-styles.php on line 8
+[03-Jan-2013 13:05:03 UTC] PHP Stack trace:
+[03-Jan-2013 13:05:03 UTC] PHP   1. {main}() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\index.php:0
+[03-Jan-2013 13:05:03 UTC] PHP   2. require() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\index.php:17
+[03-Jan-2013 13:05:03 UTC] PHP   3. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-blog-header.php:12
+[03-Jan-2013 13:05:03 UTC] PHP   4. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-load.php:29
+[03-Jan-2013 13:05:03 UTC] PHP   5. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-config.php:96
+[03-Jan-2013 13:05:03 UTC] PHP   6. do_action() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-settings.php:306
+[03-Jan-2013 13:05:03 UTC] PHP   7. call_user_func_array() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php:406
+[03-Jan-2013 13:05:03 UTC] PHP   8. register_scripts_n_styles() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php:406
+[03-Jan-2013 13:05:03 UTC] PHP Notice:  Undefined variable: is_minfied in C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-content\themes\theme-master\functions\scripts-n-styles.php on line 9
+[03-Jan-2013 13:05:03 UTC] PHP Stack trace:
+[03-Jan-2013 13:05:03 UTC] PHP   1. {main}() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\index.php:0
+[03-Jan-2013 13:05:03 UTC] PHP   2. require() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\index.php:17
+[03-Jan-2013 13:05:03 UTC] PHP   3. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-blog-header.php:12
+[03-Jan-2013 13:05:03 UTC] PHP   4. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-load.php:29
+[03-Jan-2013 13:05:03 UTC] PHP   5. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-config.php:96
+[03-Jan-2013 13:05:03 UTC] PHP   6. do_action() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-settings.php:306
+[03-Jan-2013 13:05:03 UTC] PHP   7. call_user_func_array() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php:406
+[03-Jan-2013 13:05:03 UTC] PHP   8. register_scripts_n_styles() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php:406
+[03-Jan-2013 13:25:14 UTC] PHP Warning:  fopen(http://localhost/Tutorials/wordpress-project1/wordpress/wp-cron.php?doing_wp_cron=1357219514.0257070064544677734375): failed to open stream: HTTP request failed!  in C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\class-http.php on line 921
+[03-Jan-2013 13:25:14 UTC] PHP Stack trace:
+[03-Jan-2013 13:25:14 UTC] PHP   1. {main}() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\index.php:0
+[03-Jan-2013 13:25:14 UTC] PHP   2. require() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\index.php:17
+[03-Jan-2013 13:25:14 UTC] PHP   3. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-blog-header.php:12
+[03-Jan-2013 13:25:14 UTC] PHP   4. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-load.php:29
+[03-Jan-2013 13:25:14 UTC] PHP   5. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-config.php:96
+[03-Jan-2013 13:25:14 UTC] PHP   6. do_action() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-settings.php:306
+[03-Jan-2013 13:25:14 UTC] PHP   7. call_user_func_array() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php:406
+[03-Jan-2013 13:25:14 UTC] PHP   8. wp_cron() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php:406
+[03-Jan-2013 13:25:14 UTC] PHP   9. spawn_cron() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\cron.php:283
+[03-Jan-2013 13:25:14 UTC] PHP  10. wp_remote_post() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\cron.php:253
+[03-Jan-2013 13:25:14 UTC] PHP  11. WP_Http->post() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\http.php:92
+[03-Jan-2013 13:25:14 UTC] PHP  12. WP_Http->request() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\class-http.php:275
+[03-Jan-2013 13:25:14 UTC] PHP  13. WP_Http->_dispatch_request() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\class-http.php:187
+[03-Jan-2013 13:25:14 UTC] PHP  14. WP_Http_Streams->request() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\class-http.php:250
+[03-Jan-2013 13:25:14 UTC] PHP  15. fopen() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\class-http.php:921
+[03-Jan-2013 13:26:57 UTC] PHP Warning:  fopen(http://localhost/Tutorials/wordpress-project1/wordpress/wp-cron.php?doing_wp_cron=1357219617.2005050182342529296875): failed to open stream: HTTP request failed!  in C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\class-http.php on line 921
+[03-Jan-2013 13:26:57 UTC] PHP Stack trace:
+[03-Jan-2013 13:26:57 UTC] PHP   1. {main}() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\index.php:0
+[03-Jan-2013 13:26:57 UTC] PHP   2. require() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\index.php:17
+[03-Jan-2013 13:26:57 UTC] PHP   3. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-blog-header.php:12
+[03-Jan-2013 13:26:57 UTC] PHP   4. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-load.php:29
+[03-Jan-2013 13:26:57 UTC] PHP   5. require_once() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-config.php:96
+[03-Jan-2013 13:26:57 UTC] PHP   6. do_action() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-settings.php:306
+[03-Jan-2013 13:26:57 UTC] PHP   7. call_user_func_array() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php:406
+[03-Jan-2013 13:26:57 UTC] PHP   8. wp_cron() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\plugin.php:406
+[03-Jan-2013 13:26:57 UTC] PHP   9. spawn_cron() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\cron.php:283
+[03-Jan-2013 13:26:57 UTC] PHP  10. wp_remote_post() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\cron.php:253
+[03-Jan-2013 13:26:57 UTC] PHP  11. WP_Http->post() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\http.php:92
+[03-Jan-2013 13:26:57 UTC] PHP  12. WP_Http->request() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\class-http.php:275
+[03-Jan-2013 13:26:57 UTC] PHP  13. WP_Http->_dispatch_request() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\class-http.php:187
+[03-Jan-2013 13:26:57 UTC] PHP  14. WP_Http_Streams->request() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\class-http.php:250
+[03-Jan-2013 13:26:57 UTC] PHP  15. fopen() C:\Workspace\www\Tutorials\wordpress-project1\wordpress\wp-includes\class-http.php:921
