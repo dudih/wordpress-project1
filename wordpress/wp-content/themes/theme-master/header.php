@@ -19,7 +19,7 @@
 <body <?php body_class(); ?>>
 	<div id="header">
 		<div class="header-contant layout">
-			<a href="<?php echo home_url(); ?>/"><?php bloginfo('name'); ?></a> <?php bloginfo('description'); ?>
+			<a href="<?php echo home_url(); ?>/"><?php bloginfo('name'); ?></a>
 		</div>
 	</div>
 	<div class="header-shadow"></div>
@@ -39,4 +39,4 @@
 			dkfjgds fjghdsfkg hkfdjgh kh
 		</div>
 	</div>
-	<div style="border:1px solid red;" class="header-widget-shadow"></div>
+	<div class="header-widget-shadow"></div>
