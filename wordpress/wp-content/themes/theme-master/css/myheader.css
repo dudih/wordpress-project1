@@ -3,6 +3,7 @@ body{
 	width: 100%;
 	z-index: 0;
 	color: white;
+	background-color:yellow;
 }
 .layout{
 	width: 898px;
@@ -35,16 +36,21 @@ body{
 }
 .header-widget{
 	z-index: 1;
-	height: 400px;
+	height: 499px;
 	width: 100%;
 	margin-top: -54px;
-	padding-top: 50px;  /* no need. just for development mode */
+	/*padding-top: 50px;   no need. just for development mode */
 	/*float:left;*/
 	background: url("../images/theme/header/layer1/blue-bg.png") repeat-x;;
 }
 .header-widget-contnet{
 	z-index: 2;
+	height: 499px;
 	color: white;
+	margin-top:-53px;
+	margin-bottom:0px;
+	overflow:visible;
+	border:1px solid red;
 }
 .header-widget-shadow{
 	clear: both;
