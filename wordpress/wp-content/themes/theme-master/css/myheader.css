@@ -9,6 +9,7 @@ body{
 	width: 898px;
 	margin: 0 auto;
 }
+/*Black header*/
 #header{
 	width: inherit;
 	height: 49px;
@@ -34,11 +35,13 @@ body{
 	background: url("../images/theme/header/layer3/black-bg-shadow.png") repeat-x;
 	z-index: 5;
 }
+
+/*Blue header*/
 .header-widget{
 	z-index: 1;
 	height: 499px;
 	width: 100%;
-	margin-top: -54px;
+	margin-top: -70px;
 	/*padding-top: 50px;   no need. just for development mode */
 	/*float:left;*/
 	background: url("../images/theme/header/layer1/blue-bg.png") repeat-x;;
@@ -50,7 +53,25 @@ body{
 	margin-top:-53px;
 	margin-bottom:0px;
 	overflow:visible;
-	border:1px solid red;
+}
+.details{
+	width: 334px;
+	margin-top: 44px;
+	margin-bottom:38px;
+}
+.learn-more{
+	display: block;
+	width:170px;
+	height: 40px;
+	padding-top:14px;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	background-image: url("../images/theme/header/layer2/button.png");
+	background-repeat:no-repeat;
+	border: 1px solid red;
 }
 .header-widget-shadow{
 	clear: both;
@@ -59,3 +80,5 @@ body{
 	z-index: 1;
 	background: url("../images/theme/header/layer1/blue-bg-shadow.png") repeat-x;
 }
+
+/*main page*/

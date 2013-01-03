@@ -36,58 +36,17 @@
 </ul> -->
 	<div class="header-widget">
 		<div class="header-widget-contnet layout">
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
-			dkfjgds fjghdsfkg hkfdjgh kh
+			<h1>Content Item #1</h1>
+			<div class="details">
+				For developers, the Android 3.1 platform is
+				available as a downloadable component for
+				the Android SDK. The downloadable platform
+				includes an Android library and system
+				image, as well as a set of emulator skins and
+				more. The downloadable platform includes
+				no external libraries.
+			</div>
+			<a href="#" class="learn-more">learn-more</a>
 		</div>
 	</div>
 	<div class="header-widget-shadow"></div>
