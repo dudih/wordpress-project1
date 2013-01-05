@@ -3,7 +3,7 @@ body{
 	width: 100%;
 	z-index: 0;
 	color: white;
-	/*background-color:yellow;*/
+	background-color: #d3e9ef;
 }
 .layout{
 	width: 898px;
@@ -54,6 +54,12 @@ body{
 	margin-top:-53px;
 	margin-bottom:0px;
 	overflow:visible;
+}
+.header-widget-contnet .left-side{
+	float: left;
+}
+.header-widget-contnet .right-side{	
+	clear: right;
 }
 .details{
 	width: 334px;
