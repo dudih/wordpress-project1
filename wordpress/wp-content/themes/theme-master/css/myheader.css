@@ -3,7 +3,7 @@ body{
 	width: 100%;
 	z-index: 0;
 	color: white;
-	background-color:yellow;
+	/*background-color:yellow;*/
 }
 .layout{
 	width: 898px;
@@ -23,10 +23,11 @@ body{
 	height: 49px;
 	padding-top: 11px;
 }
-.header-contant a, .header-contant a:visited{
+.header-contant a{
 	color: white;
 	text-decoration: none;
 	font-size: 26px;
+	text-shadow: 2px 2px black;
 }
 .header-shadow{
 	clear: both;
@@ -39,7 +40,7 @@ body{
 /*Blue header*/
 .header-widget{
 	z-index: 1;
-	height: 499px;
+	height: 492px;
 	width: 100%;
 	margin-top: -70px;
 	/*padding-top: 50px;   no need. just for development mode */
@@ -57,21 +58,28 @@ body{
 .details{
 	width: 334px;
 	margin-top: 44px;
-	margin-bottom:38px;
+	margin-bottom: 31px;
+	font-size: 17px;
+	text-shadow: 2px 2px #069;
 }
 .learn-more{
 	display: block;
-	width:170px;
-	height: 40px;
-	padding-top:14px;
+	width: 151px;
+	height: 31px;
+	padding-top: 9px;
 	font-size: 16px;
 	font-weight: bold;
 	color: white;
 	text-align: center;
+	text-shadow: 2px 2px #069;
 	text-decoration: none;
 	background-image: url("../images/theme/header/layer2/button.png");
+	background-position: 0px 0px;
+	background-size: 150px 39px;
 	background-repeat:no-repeat;
-	border: 1px solid red;
+}
+.learn-more:hover{
+	background-image: url("../images/theme/header/layer2/button-hover.png");
 }
 .header-widget-shadow{
 	clear: both;
@@ -80,5 +88,10 @@ body{
 	z-index: 1;
 	background: url("../images/theme/header/layer1/blue-bg-shadow.png") repeat-x;
 }
-
+.content-item{
+	padding-top: 115px;
+	font-size: 36px;
+	text-shadow: 2px 2px #069;
+	font-weight: normal;
+}
 /*main page*/

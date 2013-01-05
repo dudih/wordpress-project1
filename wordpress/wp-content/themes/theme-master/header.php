@@ -36,7 +36,7 @@
 </ul> -->
 	<div class="header-widget">
 		<div class="header-widget-contnet layout">
-			<h1>Content Item #1</h1>
+			<h1 class="content-item">Content Item #1</h1>
 			<div class="details">
 				For developers, the Android 3.1 platform is
 				available as a downloadable component for
@@ -46,7 +46,7 @@
 				more. The downloadable platform includes
 				no external libraries.
 			</div>
-			<a href="#" class="learn-more">learn-more</a>
+			<a href="#" class="learn-more">Learn More</a>
 		</div>
 	</div>
 	<div class="header-widget-shadow"></div>
