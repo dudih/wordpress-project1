@@ -61,6 +61,8 @@ body{
 .header-widget-contnet .right-side{	
 	clear: right;
 }
+
+/*left-side*/
 .details{
 	width: 334px;
 	margin-top: 44px;
@@ -87,6 +89,18 @@ body{
 .learn-more:hover{
 	background-image: url("../images/theme/header/layer2/button-hover.png");
 }
+.content-item{
+	padding-top: 115px;
+	font-size: 36px;
+	text-shadow: 2px 2px #069;
+	font-weight: normal;
+}
+
+/*right-side*/
+img.widget{
+	width: 500px;
+	height: 300px;
+}
 .header-widget-shadow{
 	clear: both;
 	height: 5px;
@@ -94,10 +108,5 @@ body{
 	z-index: 1;
 	background: url("../images/theme/header/layer1/blue-bg-shadow.png") repeat-x;
 }
-.content-item{
-	padding-top: 115px;
-	font-size: 36px;
-	text-shadow: 2px 2px #069;
-	font-weight: normal;
-}
+
 /*main page*/
