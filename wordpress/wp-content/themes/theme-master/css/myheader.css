@@ -71,6 +71,8 @@ body{
 	z-index: 2;
 	margin-top: -500px;
 	float: left;
+	overflow: hidden;
+	height: 500px;
 	border: 1px solid white;
 }
 .header-widget-contnet .right-side{
@@ -79,6 +81,9 @@ body{
 	z-index: 2;
 	margin-top: -500px;
 	float: right;
+	overflow: hidden;
+	height: 500px;
+
 	border: 1px solid pink;
 }
 
