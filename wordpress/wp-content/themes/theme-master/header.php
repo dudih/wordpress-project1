@@ -23,7 +23,10 @@
 		</div>
 	</div>
 	<div class="header-shadow"></div>
-	<div class="header-transperant"></div>
+	<div class="header-transperant">
+		<a href="#" class="scroller scroll-up"></a>
+		<a href="#" class="scroller scroll-down"></a>
+	</div>
 	<div class="header-widget-up-shadow"></div>
 <!-- <ul class="main-menu">
 	<?php

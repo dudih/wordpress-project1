@@ -3,6 +3,7 @@ body{
 	width: 100%;
 	z-index: 0;
 	color: white;
+	font-family: "Arial Narrow", Arial, sans-serif;
 	background-color: #d3e9ef;
 }
 .layout{
@@ -39,7 +40,7 @@ body{
 }
 .header-transperant{
 	width: 500px;
-	height: 375px;
+	height: 397px;
 	clear: none;
 	float: right;
 	position: relative;
@@ -47,16 +48,36 @@ body{
 	border: 1px solid red;
 	margin: 0px 503px;
 }
+.scroller{
+	display: block;
+	width: 30px;
+	height: 30px;
+	margin: 22px auto 0px;
+	background-repeat: no-repeat;
+}
+.scroll-up{
+	background-image: url("../images/theme/header/layer2/scroller/up.png");
+}
+.scroll-up:hover{
+	background-image: url("../images/theme/header/layer2/scroller/up-hover.png");
+}
+.scroll-down{
+	background-image: url("../images/theme/header/layer2/scroller/down.png");
+}
+.scroll-down:hover{
+	background-image: url("../images/theme/header/layer2/scroller/down-hover.png");
+}
+
+
 
 /*Blue header*/
 .header-widget{
 	z-index: 1;
-	height: 492px;
+	height: 516px;
 	width: 100%;
 	margin-top: -70px;
-	/*padding-top: 50px;   no need. just for development mode */
-	/*float:left;*/
 	background: url("../images/theme/header/layer1/blue-bg.png") repeat-x;;
+	background-size: contain;
 }
 .header-widget-contnet{
 	z-index: 2;
@@ -147,6 +168,7 @@ img.widget{
 	position: relative;
 	z-index: 3;
 	background: url("../images/theme/header/layer1/blue-bg-up-shadow.png") repeat-x;
+	border: 1px solid green;
 }
 .header-widget-shadow{
 	clear: both;
