@@ -116,12 +116,20 @@ body{
 	font-weight: normal;
 }
 
+
+div.before-widget{
+	margin-left: 123px;
+	height: 120px;
+	width: 352px;
+	border-right: 1px solid #1A85A7;
+	border-left: 1px solid #1A85A7;
+}
 /*right-side*/
 img.widget{
 	width: 500px;
 	height: 318px;
 	float: right;
-	margin-top: 140px;
+	/*margin-top: 140px;*/
 }
 
 .header-widget-up-shadow{
