@@ -23,6 +23,8 @@
 		</div>
 	</div>
 	<div class="header-shadow"></div>
+	<div class="header-transperant"></div>
+	<div class="header-widget-up-shadow"></div>
 <!-- <ul class="main-menu">
 	<?php
 		// wp_nav_menu( array(
@@ -48,12 +50,12 @@
 					more. The downloadable platform includes
 					no external libraries.
 				</div>
-				<a href="#" class="learn-more">Learn More</a>			
+				<a href="#" class="learn-more">Learn More</a>
 <?php } ?>	<!--End for-->
-			</div>	
+			</div>
 			<div class="right-side">
 				<img class="widget" src="<?php echo bloginfo('template_directory'); ?>/images/theme/header/layer2/widget-pictures/widget-picture-01.png" />
-			</div>		
-		</div>			
+			</div>
+		</div>
 	</div>
 	<div class="header-widget-shadow"></div>
