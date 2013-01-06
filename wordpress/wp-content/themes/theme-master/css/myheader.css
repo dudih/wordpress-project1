@@ -118,6 +118,7 @@ body{
 
 
 div.before-widget{
+	clear: both;
 	margin-left: 123px;
 	height: 120px;
 	width: 352px;
@@ -126,6 +127,7 @@ div.before-widget{
 }
 /*right-side*/
 img.widget{
+	display: block;
 	width: 500px;
 	height: 318px;
 	float: right;

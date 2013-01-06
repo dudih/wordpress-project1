@@ -55,9 +55,8 @@
 			</div>
 			<div class="right-side">
 <?php for($i=1; $i<=3; $i++) { ?>
-				<div class="before-widget">dssdsd111<?php echo $i ?></div>
+				<div class="before-widget"></div>
 				<img class="widget" src="<?php echo bloginfo('template_directory'); ?>/images/theme/header/layer2/widget-pictures/widget-picture-0<?php echo $i ?>.png" />
-				<div>dssdsd222<?php echo $i ?></div>
 <?php } ?>	<!--End for-->
 			</div>
 		</div>
