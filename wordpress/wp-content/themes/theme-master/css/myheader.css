@@ -38,12 +38,14 @@ body{
 	z-index: 3;
 }
 .header-transperant{
-	width: 100%;
+	width: 500px;
 	height: 375px;
 	clear: none;
 	float: right;
 	position: relative;
 	z-index: 3;
+	border: 1px solid red;
+	margin: 0px 503px;
 }
 
 /*Blue header*/
@@ -117,7 +119,9 @@ body{
 /*right-side*/
 img.widget{
 	width: 500px;
-	height: 300px;
+	height: 318px;
+	float: right;
+	margin-top: 140px;
 }
 
 .header-widget-up-shadow{
