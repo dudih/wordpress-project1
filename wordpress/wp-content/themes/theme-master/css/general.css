@@ -41,8 +41,18 @@ table thead td {  }
 blockquote {  }
 
 /* ================================== Page Layout =================================== */
-body { margin: 0px; padding: 0; background: orange; color: #000; font-family: "Arial Narrow", Arial, sans-serif; min-width: 1050px; }
-.layout { width: 898px; margin: 0 auto; }
+body{
+	margin: 0px;
+	width: 100%;
+	z-index: 0;
+	color: white;
+	font-family: "Arial Narrow", Arial, sans-serif;
+	background-color: #d3e9ef;
+}
+.layout{
+	width: 898px;
+	margin: 0 auto;
+}
 
 
 /* ===================================== Header ===================================== */

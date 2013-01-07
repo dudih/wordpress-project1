@@ -1,15 +1,4 @@
-body{
-	margin: 0px;
-	width: 100%;
-	z-index: 0;
-	color: white;
-	font-family: "Arial Narrow", Arial, sans-serif;
-	background-color: #d3e9ef;
-}
-.layout{
-	width: 898px;
-	margin: 0 auto;
-}
+
 /*Black header*/
 #header{
 	width: inherit;

@@ -27,6 +27,7 @@ add_action( 'init', 'register_scripts_n_styles' );
 function register_styles( $is_minified = false ) {
 	wp_register_style('fancybox', CSS_DIR . '/libs/fancybox.css' );
 	wp_register_style('fonts',    CSS_DIR . '/fonts.css' );
+	wp_register_style('general',    CSS_DIR . '/general.css' );
 	wp_register_style('myheader',    CSS_DIR . '/myheader.css' );
 	wp_register_style('myfooter',    CSS_DIR . '/myfooter.css' );
 
