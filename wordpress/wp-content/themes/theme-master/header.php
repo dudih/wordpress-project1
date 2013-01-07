@@ -34,7 +34,6 @@
 					$Home->the_post();
 					$post_id = get_the_ID();
 					$titiele = get_the_title();
-				// $thumbail_url = wp_get_attachment_url( get_post_thumbnail_id( $post_id ) );
 					$imagesArray[] = wp_get_attachment_url( get_post_thumbnail_id( $post_id ) );
 
 					echo '<h1 class="content-item">' . $titiele . '</h1>';
@@ -43,14 +42,15 @@
 					?></div><?php
 
 					$permalink = get_permalink();
-					?><a href="<?php echo $permalink; ?>" class="learn-more">Learn More</a><?php
-				} ?>
+					?><a href="<?php echo $permalink; ?>" class="learn-more">Learn More</a>
+				<?php } ?>
 
 			</div>
 			<div class="right-side">
 				<?php foreach ($imagesArray as $value) { ?>
 				<div class="before-widget"></div>
 				<img class="widget" src="<?php echo $value; ?>" />
+				<div class="after-widget"></div>
 				<?php } ?>
 			</div>
 			<div class="header-transperant">

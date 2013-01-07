@@ -1,5 +1,5 @@
 	<div class="footer layout">
-		<div class="left-side"><a href=""></a>></div>
+		<div class="left-side"><a href=""></a></div>
 		<div class="right-side">2222</div>
 	</div>
 
