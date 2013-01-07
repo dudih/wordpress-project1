@@ -53,9 +53,10 @@ function register_styles( $is_minified = false ) {
 function register_scripts( $is_minified = false ) {
 
 	// Already Minified files
+	wp_register_script('myheader',  JS_DIR . '/libs/myheader.js',     array(),              true );
 	wp_register_script('jq',        JS_DIR . '/libs/jquery.js',       array(),              true );
 	wp_register_script('modernizr', JS_DIR . '/libs/modernizr.js',    array(),              true );
-	wp_register_script('fancybox',  JS_DIR . '/libs/fancybox.js',     array('jq', 'modernizr'),          true );
+	wp_register_script('fancybox',  JS_DIR . '/libs/fancybox.js',     array('jq', 'modernizr'), true );
 
 	// if( $is_minified ) {
 	// 	// Minified

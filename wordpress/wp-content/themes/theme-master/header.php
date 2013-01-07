@@ -68,18 +68,4 @@
 	<div class="header-shadow"></div>
 	<div class="header-widget-up-shadow"></div>		<!-- the shadow over the blue background-->
 
-
-<script>
-	function scroller(operator){
-		if(operator=="-" || operator=="+"){
-      		$(".header-widget-contnet .left-side").animate({"marginTop": operator+ "=470px"}, "500");
-      		$(".header-widget-contnet .right-side").animate({"marginTop": operator+ "=470px"}, "500");
-      	}
-	}
-    $("a.scroll-up").click( function(){
-    	scroller("-");
-    });
-    $("a.scroll-down").click( function(){
-    	scroller("+");
-    });
-</script>
+	<?php wp_enqueue_script('myheader'); ?>
