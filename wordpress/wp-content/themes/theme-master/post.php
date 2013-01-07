@@ -4,8 +4,8 @@
 	wp_enqueue_style('home');
 	get_header();
 
-	// The content
-	get_template_part('content/home/featured');
+	the_title();
+	the_content();
 
 	// Scripts
 	wp_enqueue_script('home');

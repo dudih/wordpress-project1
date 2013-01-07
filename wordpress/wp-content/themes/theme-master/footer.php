@@ -1,3 +1,8 @@
+	<div class="footer layout">
+		<div class="left-side"><a href=""></a>></div>
+		<div class="right-side">2222</div>
+	</div>
+
 	<div id="footer">
 		<div class="rights">
 			<p>&copy; <?php echo date('Y'); ?>. All Rights Reserved.</p>
@@ -19,7 +24,6 @@
 	if( WP_DEBUG ){ echo '<!-- #footer -->'; }
 
 	wp_footer();
-
 	?>
 </body>
 </html>

@@ -28,6 +28,7 @@ function register_styles( $is_minified = false ) {
 	wp_register_style('fancybox', CSS_DIR . '/libs/fancybox.css' );
 	wp_register_style('fonts',    CSS_DIR . '/fonts.css' );
 	wp_register_style('myheader',    CSS_DIR . '/myheader.css' );
+	wp_register_style('myfooter',    CSS_DIR . '/myfooter.css' );
 
 	// Already Minified files
 	// wp_register_style('fancybox', CSS_DIR . '/libs/fancybox.css' );
