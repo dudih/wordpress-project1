@@ -48,9 +48,15 @@
 			</div>
 			<div class="right-side">
 				<?php foreach ($imagesArray as $value) { ?>
-				<div class="before-widget"></div>
+				<div class="before-widget wrapper-border">
+					<div class="left border-widget"></div>
+					<div class="right border-widget"></div>
+				</div>
 				<img class="widget" src="<?php echo $value; ?>" />
-				<div class="after-widget"></div>
+				<div class="after-widget wrapper-border">
+					<div class="left border-widget"></div>
+					<div class="right border-widget"></div>
+				</div>
 				<?php } ?>
 			</div>
 			<div class="header-transperant">
