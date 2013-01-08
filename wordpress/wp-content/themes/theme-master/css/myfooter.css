@@ -7,10 +7,27 @@
 	width: 122px;
 	height: 124px;
 	margin-top: 44px;
+	margin-right: 35px;
 	margin-left: 48px;
 	background: url("../images/theme/footer/twitter.png") no-repeat;
 }
 .footer .right-side{
+	width: 680px;
 	clear: right;
 	/*border: 1px solid green;*/
+	float: left;
+}
+.right-side > p{
+	margin-top: 60px;
+	font-size: 36px;
+	color: #06C;
+	text-shadow: 2px 2px #FFF;
+}
+nav > div{
+	width: 500px;
+	padding: 5px 0px;
+	font-size: 16px;
+	text-shadow: 2px 2px #FFF;
+	color: #333;
+	border-bottom: 1px dotted gray;	
 }
