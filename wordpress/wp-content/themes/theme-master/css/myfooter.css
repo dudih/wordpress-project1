@@ -17,17 +17,36 @@
 	/*border: 1px solid green;*/
 	float: left;
 }
-.right-side > p{
-	margin-top: 60px;
+.right-side > span{
+	display: block;
+	font-size: 20px;
+	color:#666;
+	padding-bottom: 20px;
+	text-shadow: 2px 2px #FFF;
+
+}
+.right-side > a{
+	display: block;
+	margin-top: 64px;
+	margin-bottom: 37px;
 	font-size: 36px;
-	color: #06C;
+	color: #09C;
+	text-decoration: none;
 	text-shadow: 2px 2px #FFF;
 }
-nav > div{
-	width: 500px;
-	padding: 5px 0px;
+.right-side > a:hover{
+	color: #06C;
+}
+nav > a{
+	display: block;
+	width: 488px;
+	padding: 20px 0px;
 	font-size: 16px;
+	text-decoration: none;
 	text-shadow: 2px 2px #FFF;
-	color: #333;
-	border-bottom: 1px dotted gray;	
+	color: #999;
+	border-top: 2px dotted #A1CADB;
+}
+nav > a:hover{
+	color: #333
 }
